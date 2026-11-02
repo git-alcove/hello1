@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash *.claude/skills/unsplash-image-finder/unsplash-search.sh*)",
+      "Bash(bash *.claude/skills/unsplash-image-finder/unsplash-track.sh*)",
+      "Bash(bash *.claude/skills/unsplash-image-finder/unsplash-health-check.sh*)",
+      "Bash(bash *.claude/skills/one-page-site-builder/brand-icon.sh*)",
+      "Bash(npx serve public:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/check-worker-name.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}
