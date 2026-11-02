@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>こころの庭 心理カウンセリングオフィス｜神戸・南京町</title>
+  <meta name="description" content="神戸市中央区・南京町の一角にある心理カウンセリングオフィス。ユング心理学をベースにしたカウンセリング・夢分析・箱庭療法、ロールシャッハテストなどの心理検査、専門職向けスーパーバイズを、利用しやすい料金でお受けしています。">
+  <meta name="keywords" content="カウンセリング,神戸,南京町,元町,ユング心理学,夢分析,箱庭療法,ロールシャッハテスト,バウムテスト,風景構成法,スーパーバイズ">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="こころの庭 心理カウンセリングオフィス｜神戸・南京町">
+  <meta property="og:description" content="ユング心理学をベースにしたカウンセリング・夢分析・箱庭療法・心理検査。神戸・南京町の小さなオフィスです。">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1773774235180-de511ea41bbe?w=1200&h=630&q=80&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231f2a44'/%3E%3Ccircle cx='19' cy='13' r='7' fill='%23c9a063'/%3E%3Ccircle cx='22' cy='11' r='6' fill='%231f2a44'/%3E%3Cpath d='M6 24c4-3 8-3 10 0s6 3 10 0' stroke='%23c9a063' stroke-width='2' fill='none'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-ink: #1f2a44;
+      --color-night: #151c30;
+      --color-mist: #eef1f5;
+      --color-moss: #56695f;
+      --color-ochre: #b8894a;
+      --color-ochre-light: #d9b98a;
+      --font-sans: 'Noto Sans JP', sans-serif;
+      --font-serif: 'Shippori Mincho', serif;
+    }
+    html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+    body { @apply font-sans text-ink bg-white leading-relaxed; }
+    .nav-scrolled { @apply bg-white/85 shadow-sm backdrop-blur-md; }
+    .nav-scrolled .nav-link, .nav-scrolled .nav-brand, .nav-scrolled #menu-btn { @apply text-ink; }
+    .section-title { @apply font-serif text-2xl md:text-3xl font-bold tracking-wider text-ink; }
+    .section-lead { @apply mt-2 text-sm tracking-[0.25em] text-ochre; }
+  </style>
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <header id="site-header" class="fixed inset-x-0 top-0 z-50 transition-all duration-300">
+    <nav aria-label="メインナビゲーション" class="max-w-6xl mx-auto px-5 h-16 lg:h-20 flex items-center justify-between">
+      <a href="#top" class="nav-brand text-white font-serif text-lg lg:text-xl font-bold tracking-wider transition-colors">こころの庭</a>
+      <ul class="hidden lg:flex items-center gap-8 text-sm">
+        <li><a href="#about" class="nav-link text-white/90 hover:text-ochre transition-colors">はじめての方へ</a></li>
+        <li><a href="#services" class="nav-link text-white/90 hover:text-ochre transition-colors">相談・療法</a></li>
+        <li><a href="#tests" class="nav-link text-white/90 hover:text-ochre transition-colors">心理検査</a></li>
+        <li><a href="#supervision" class="nav-link text-white/90 hover:text-ochre transition-colors">スーパーバイズ</a></li>
+        <li><a href="#fees" class="nav-link text-white/90 hover:text-ochre transition-colors">料金</a></li>
+        <li><a href="#access" class="nav-link text-white/90 hover:text-ochre transition-colors">アクセス</a></li>
+        <li><a href="#contact" class="inline-block bg-ochre text-white px-5 py-2.5 rounded-md hover:bg-ink transition-colors">ご予約・お問い合わせ</a></li>
+      </ul>
+      <button id="menu-btn" type="button" class="lg:hidden text-white p-2" aria-expanded="false" aria-controls="mobile-menu" aria-label="メニューを開く">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </nav>
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-200 shadow-md">
+      <ul class="px-5 py-4 space-y-1 text-ink">
+        <li><a href="#about" class="block py-3 border-b border-slate-100">はじめての方へ</a></li>
+        <li><a href="#services" class="block py-3 border-b border-slate-100">相談・療法</a></li>
+        <li><a href="#tests" class="block py-3 border-b border-slate-100">心理検査</a></li>
+        <li><a href="#supervision" class="block py-3 border-b border-slate-100">スーパーバイズ</a></li>
+        <li><a href="#fees" class="block py-3 border-b border-slate-100">料金</a></li>
+        <li><a href="#access" class="block py-3 border-b border-slate-100">アクセス</a></li>
+        <li class="pt-3"><a href="#contact" class="block text-center bg-ochre text-white py-3 rounded-md">ご予約・お問い合わせ</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section id="hero" class="relative min-h-[100svh] flex items-center text-white overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1773774235180-de511ea41bbe?w=1920&q=80&fm=webp&fit=crop" alt="薄いカーテンに映る木の葉の影" class="absolute inset-0 w-full h-full object-cover" fetchpriority="high">
+      <div class="absolute inset-0 bg-gradient-to-b from-night/80 via-night/60 to-night/85"></div>
+      <div class="relative max-w-6xl mx-auto px-5 py-32 w-full">
+        <p class="text-ochre-light tracking-[0.3em] text-sm mb-6 animate__animated animate__fadeIn">神戸・南京町　心理カウンセリングオフィス</p>
+        <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-snug tracking-wider">
+          こころの奥にある声に、<br>
+          ゆっくり耳をすませる場所。
+        </h1>
+        <p class="mt-8 max-w-xl text-white/85 leading-loose">
+          ユング心理学をベースに、カウンセリング・夢分析・箱庭療法、<br class="hidden md:inline">
+          そして各種心理検査を行っています。<br>
+          続けやすい料金で、あなたのペースに寄り添います。
+        </p>
+        <div class="mt-10 flex flex-col sm:flex-row gap-4">
+          <a href="#contact" class="inline-flex items-center justify-center gap-2 bg-ochre text-white px-8 py-4 rounded-md hover:bg-white hover:text-ink transition-colors">
+            <i data-lucide="calendar" class="w-5 h-5"></i>初回面接を予約する
+          </a>
+          <a href="#about" class="inline-flex items-center justify-center gap-2 border border-white/60 text-white px-8 py-4 rounded-md hover:bg-white/10 transition-colors">
+            はじめての方へ<i data-lucide="arrow-down" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- はじめての方へ -->
+    <section id="about" class="py-20 md:py-28">
+      <div class="max-w-6xl mx-auto px-5 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div data-aos="fade-up">
+          <h2 class="section-title">はじめての方へ</h2>
+          <p class="section-lead">FOR THE FIRST VISIT</p>
+          <div class="mt-8 space-y-5 text-slate-700 leading-loose">
+            <p>理由ははっきりしないけれど、なんとなく苦しい。同じところで何度もつまずいてしまう。誰かに話したいけれど、身近な人には話せない──。</p>
+            <p>「こころの庭」は、そんな思いを安心して言葉にできる場所です。南京町のにぎわいから一歩入った静かな部屋で、あなたのお話をじっくりうかがいます。</p>
+            <p>悩みを「すぐに解決すべき問題」としてだけ扱うのではなく、その奥にある意味やこころの動きに一緒に目を向けていくこと。それが私たちの大切にしている姿勢です。</p>
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1744979766458-a95fee6c9fa2?w=1000&q=80&fm=webp&fit=crop" alt="やわらかな陽の光が差し込む落ち着いた部屋" class="w-full aspect-[4/3] object-cover rounded-lg" loading="lazy" decoding="async">
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto px-5 mt-16 grid md:grid-cols-3 gap-6">
+        <div class="bg-mist rounded-lg p-8" data-aos="fade-up">
+          <i data-lucide="compass" class="w-8 h-8 text-ochre"></i>
+          <h3 class="mt-4 font-serif text-lg font-bold">ユング心理学がベース</h3>
+          <p class="mt-3 text-sm text-slate-700 leading-relaxed">夢やイメージを手がかりに、意識だけでは届かないこころの深いところとの対話を大切にします。</p>
+        </div>
+        <div class="bg-mist rounded-lg p-8" data-aos="fade-up" data-aos-delay="100">
+          <i data-lucide="wallet" class="w-8 h-8 text-ochre"></i>
+          <h3 class="mt-4 font-serif text-lg font-bold">続けやすい料金</h3>
+          <p class="mt-3 text-sm text-slate-700 leading-relaxed">カウンセリングは続けることで意味が深まります。一般的な相場より抑えた料金を設定しています。</p>
+        </div>
+        <div class="bg-mist rounded-lg p-8" data-aos="fade-up" data-aos-delay="200">
+          <i data-lucide="lock" class="w-8 h-8 text-ochre"></i>
+          <h3 class="mt-4 font-serif text-lg font-bold">完全予約制・守秘義務</h3>
+          <p class="mt-3 text-sm text-slate-700 leading-relaxed">ほかの来談者と顔を合わせにくい予約枠で運営しています。お話の内容が外に漏れることはありません。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 相談・療法 -->
+    <section id="services" class="py-20 md:py-28 bg-mist">
+      <div class="max-w-6xl mx-auto px-5">
+        <div class="text-center" data-aos="fade-up">
+          <h2 class="section-title">カウンセリング・夢分析・箱庭療法</h2>
+          <p class="section-lead">SERVICES</p>
+          <p class="mt-6 max-w-2xl mx-auto text-slate-700">ご相談の内容やご希望に合わせて、方法を組み合わせることもできます。どれがよいかわからない場合も、初回面接で一緒に考えます。</p>
+        </div>
+
+        <div class="mt-14 space-y-10">
+          <!-- カウンセリング -->
+          <article class="bg-white rounded-lg overflow-hidden grid md:grid-cols-5" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1733360485753-0b11ba7a3d91?w=900&q=80&fm=webp&fit=crop" alt="向かい合う二脚の椅子がある部屋" class="md:col-span-2 w-full h-60 md:h-full object-cover" loading="lazy" decoding="async">
+            <div class="md:col-span-3 p-8 md:p-10">
+              <div class="flex items-center gap-3">
+                <i data-lucide="message-circle" class="w-6 h-6 text-ochre"></i>
+                <h3 class="font-serif text-xl font-bold">カウンセリング</h3>
+              </div>
+              <p class="mt-4 text-slate-700 leading-loose">対話を通して、いま感じている気持ちや困りごとを整理し、ご自身のこころの動きを理解していく方法です。不安や落ち込み、人間関係、家族のこと、生き方の迷いなど、内容を問わずご相談いただけます。助言を与えることよりも、あなた自身が答えを見つけていく過程に寄り添うことを大切にしています。</p>
+              <p class="mt-4 text-sm text-moss">1回50分／週1回〜隔週が目安</p>
+            </div>
+          </article>
+
+          <!-- 夢分析 -->
+          <article class="bg-white rounded-lg overflow-hidden grid md:grid-cols-5" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1731175931540-543dde6ba6bc?w=900&q=80&fm=webp&fit=crop" alt="木々の間から見える満月の夜空" class="md:col-span-2 md:order-2 w-full h-60 md:h-full object-cover" loading="lazy" decoding="async">
+            <div class="md:col-span-3 md:order-1 p-8 md:p-10">
+              <div class="flex items-center gap-3">
+                <i data-lucide="moon" class="w-6 h-6 text-ochre"></i>
+                <h3 class="font-serif text-xl font-bold">夢分析</h3>
+              </div>
+              <p class="mt-4 text-slate-700 leading-loose">ユング心理学では、夢は無意識からのメッセージだと考えます。見た夢を記録してお持ちいただき、そのイメージが何を語っているのかを一緒に味わっていきます。夢の「正しい解釈」を当てるのではなく、夢と対話を重ねるなかで、普段は気づかないこころの側面や、これから進む方向が見えてくることがあります。</p>
+              <p class="mt-4 text-sm text-moss">1回50分／夢を覚えていなくても始められます</p>
+            </div>
+          </article>
+
+          <!-- 箱庭療法 -->
+          <article class="bg-white rounded-lg overflow-hidden grid md:grid-cols-5" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1745208865705-a6b54c0c9b60?w=900&q=80&fm=webp&fit=crop" alt="木の箱に並べられた小さな玩具" class="md:col-span-2 w-full h-60 md:h-full object-cover" loading="lazy" decoding="async">
+            <div class="md:col-span-3 p-8 md:p-10">
+              <div class="flex items-center gap-3">
+                <i data-lucide="shapes" class="w-6 h-6 text-ochre"></i>
+                <h3 class="font-serif text-xl font-bold">箱庭療法</h3>
+              </div>
+              <p class="mt-4 text-slate-700 leading-loose">砂の入った木の箱に、人や動物、植物、建物などのミニチュアを自由に置いて、ひとつの世界をつくる方法です。言葉にしにくい気持ちも、形や配置として自然に表れてきます。上手につくる必要はありません。子どもから大人まで、言葉で話すことが苦手な方にもおすすめしています。</p>
+              <p class="mt-4 text-sm text-moss">1回50分／カウンセリングと組み合わせることもできます</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 心理検査 -->
+    <section id="tests" class="py-20 md:py-28">
+      <div class="max-w-6xl mx-auto px-5">
+        <div class="text-center" data-aos="fade-up">
+          <h2 class="section-title">心理検査（人格検査）</h2>
+          <p class="section-lead">PSYCHOLOGICAL ASSESSMENT</p>
+          <p class="mt-6 max-w-2xl mx-auto text-slate-700">ご自身の性格の傾向やこころの状態を、客観的な視点から知るための検査です。結果は専門用語を避けてわかりやすくお伝えし、今後に役立てられるようにお話しします。</p>
+        </div>
+        <div class="mt-14 grid md:grid-cols-3 gap-6">
+          <div class="border border-slate-200 rounded-lg p-8" data-aos="fade-up">
+            <i data-lucide="droplet" class="w-8 h-8 text-ochre"></i>
+            <h3 class="mt-4 font-serif text-lg font-bold">ロールシャッハテスト</h3>
+            <p class="mt-3 text-sm text-slate-700 leading-relaxed">左右対称のインクのしみが何に見えるかを答えていただく検査です。ものの見方や感じ方、感情の動き、対人関係の持ち方など、パーソナリティを多面的にとらえることができます。</p>
+          </div>
+          <div class="border border-slate-200 rounded-lg p-8" data-aos="fade-up" data-aos-delay="100">
+            <i data-lucide="tree-deciduous" class="w-8 h-8 text-ochre"></i>
+            <h3 class="mt-4 font-serif text-lg font-bold">バウムテスト</h3>
+            <p class="mt-3 text-sm text-slate-700 leading-relaxed">「実のなる木」を1本、自由に描いていただく検査です。短い時間で負担も少なく、描かれた木の姿から、そのときのこころの状態や内面のエネルギーがうかがえます。</p>
+          </div>
+          <div class="border border-slate-200 rounded-lg p-8" data-aos="fade-up" data-aos-delay="200">
+            <i data-lucide="mountain" class="w-8 h-8 text-ochre"></i>
+            <h3 class="mt-4 font-serif text-lg font-bold">風景構成法</h3>
+            <p class="mt-3 text-sm text-slate-700 leading-relaxed">川・山・田・道・家・木・人などを順に描き入れ、一枚の風景を完成させる方法で、日本で生まれました。描く過程そのものにも意味があり、検査としても、こころのケアとしても用いられます。</p>
+          </div>
+        </div>
+        <p class="mt-8 text-center text-sm text-slate-600" data-aos="fade-up">このほか、文章完成法（SCT）などの検査も、目的に応じて組み合わせて実施します。</p>
+      </div>
+    </section>
+
+    <!-- スーパーバイズ -->
+    <section id="supervision" class="py-20 md:py-28 bg-ink text-white">
+      <div class="max-w-6xl mx-auto px-5 grid lg:grid-cols-2 gap-12 items-center">
+        <div data-aos="fade-up">
+          <h2 class="font-serif text-2xl md:text-3xl font-bold tracking-wider">専門職の方へ──スーパーバイズ</h2>
+          <p class="mt-2 text-sm tracking-[0.25em] text-ochre-light">FOR PROFESSIONALS</p>
+          <p class="mt-8 text-white/85 leading-loose">カウンセラー・心理職の方、心理系大学院で学んでいる方を対象に、カウンセリングや心理検査の習得のためのスーパーバイズを行っています。ケースの見立てや面接の進め方、検査の実施・解釈・所見の書き方まで、実践に即してご一緒に検討します。</p>
+        </div>
+        <ul class="space-y-4" data-aos="fade-up" data-aos-delay="100">
+          <li class="flex gap-4 bg-white/5 border border-white/10 rounded-lg p-5">
+            <i data-lucide="users" class="w-6 h-6 text-ochre-light shrink-0 mt-0.5"></i>
+            <div><p class="font-bold">ケース・スーパーバイズ</p><p class="mt-1 text-sm text-white/75">担当ケースの見立て、面接の流れ、逆転移の扱いなど。</p></div>
+          </li>
+          <li class="flex gap-4 bg-white/5 border border-white/10 rounded-lg p-5">
+            <i data-lucide="clipboard-list" class="w-6 h-6 text-ochre-light shrink-0 mt-0.5"></i>
+            <div><p class="font-bold">心理検査のスーパーバイズ</p><p class="mt-1 text-sm text-white/75">ロールシャッハテスト・描画法の実施、スコアリング、解釈、所見作成。</p></div>
+          </li>
+          <li class="flex gap-4 bg-white/5 border border-white/10 rounded-lg p-5">
+            <i data-lucide="sparkles" class="w-6 h-6 text-ochre-light shrink-0 mt-0.5"></i>
+            <div><p class="font-bold">夢・箱庭の事例検討</p><p class="mt-1 text-sm text-white/75">ユング心理学の観点から、イメージを扱う面接について。</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ご利用の流れ -->
+    <section id="flow" class="py-20 md:py-28 bg-mist">
+      <div class="max-w-6xl mx-auto px-5">
+        <div class="text-center" data-aos="fade-up">
+          <h2 class="section-title">ご利用の流れ</h2>
+          <p class="section-lead">HOW IT WORKS</p>
+        </div>
+        <ol class="mt-14 grid md:grid-cols-4 gap-6">
+          <li class="bg-white rounded-lg p-7" data-aos="fade-up">
+            <i data-lucide="phone" class="w-7 h-7 text-ochre"></i>
+            <h3 class="mt-4 font-bold">ご予約</h3>
+            <p class="mt-2 text-sm text-slate-700 leading-relaxed">お電話またはフォームからご連絡ください。ご都合のよい日時を調整します。</p>
+          </li>
+          <li class="bg-white rounded-lg p-7" data-aos="fade-up" data-aos-delay="100">
+            <i data-lucide="door-open" class="w-7 h-7 text-ochre"></i>
+            <h3 class="mt-4 font-bold">初回面接（60分）</h3>
+            <p class="mt-2 text-sm text-slate-700 leading-relaxed">ご相談の内容をうかがい、どのように進めていくかを一緒に考えます。</p>
+          </li>
+          <li class="bg-white rounded-lg p-7" data-aos="fade-up" data-aos-delay="200">
+            <i data-lucide="calendar-check" class="w-7 h-7 text-ochre"></i>
+            <h3 class="mt-4 font-bold">継続面接</h3>
+            <p class="mt-2 text-sm text-slate-700 leading-relaxed">週1回〜隔週を目安に、同じ曜日・時間で継続するのがおすすめです。</p>
+          </li>
+          <li class="bg-white rounded-lg p-7" data-aos="fade-up" data-aos-delay="300">
+            <i data-lucide="leaf" class="w-7 h-7 text-ochre"></i>
+            <h3 class="mt-4 font-bold">終結</h3>
+            <p class="mt-2 text-sm text-slate-700 leading-relaxed">区切りの時期は話し合って決めます。いつでもご自身の意思で終えられます。</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 料金 -->
+    <section id="fees" class="py-20 md:py-28">
+      <div class="max-w-4xl mx-auto px-5">
+        <div class="text-center" data-aos="fade-up">
+          <h2 class="section-title">料金</h2>
+          <p class="section-lead">FEES</p>
+          <p class="mt-6 text-slate-700">続けやすさを大切に、一般的な相場よりも抑えた料金に設定しています。（税込）</p>
+        </div>
+
+        <div class="mt-12 space-y-10" data-aos="fade-up">
+          <div>
+            <h3 class="font-serif text-lg font-bold border-l-4 border-ochre pl-3">カウンセリング・療法</h3>
+            <dl class="mt-4 divide-y divide-slate-200 border-y border-slate-200">
+              <div class="flex justify-between gap-4 py-4"><dt>初回面接（60分）</dt><dd class="font-bold whitespace-nowrap">5,000円</dd></div>
+              <div class="flex justify-between gap-4 py-4"><dt>カウンセリング（50分）</dt><dd class="font-bold whitespace-nowrap">5,500円</dd></div>
+              <div class="flex justify-between gap-4 py-4"><dt>夢分析（50分）</dt><dd class="font-bold whitespace-nowrap">5,500円</dd></div>
+              <div class="flex justify-between gap-4 py-4"><dt>箱庭療法（50分）</dt><dd class="font-bold whitespace-nowrap">5,500円</dd></div>
+            </dl>
+          </div>
+          <div>
+            <h3 class="font-serif text-lg font-bold border-l-4 border-ochre pl-3">心理検査（結果のフィードバック面接を含みます）</h3>
+            <dl class="mt-4 divide-y divide-slate-200 border-y border-slate-200">
+              <div class="flex justify-between gap-4 py-4"><dt>ロールシャッハテスト</dt><dd class="font-bold whitespace-nowrap">15,000円</dd></div>
+              <div class="flex justify-between gap-4 py-4"><dt>バウムテスト／風景構成法（各）</dt><dd class="font-bold whitespace-nowrap">5,000円</dd></div>
+              <div class="flex justify-between gap-4 py-4"><dt>検査の組み合わせ（テストバッテリー）</dt><dd class="font-bold whitespace-nowrap">20,000円〜</dd></div>
+            </dl>
+          </div>
+          <div>
+            <h3 class="font-serif text-lg font-bold border-l-4 border-ochre pl-3">スーパーバイズ</h3>
+            <dl class="mt-4 divide-y divide-slate-200 border-y border-slate-200">
+              <div class="flex justify-between gap-4 py-4"><dt>個人スーパーバイズ（50分）</dt><dd class="font-bold whitespace-nowrap">6,000円</dd></div>
+              <div class="flex justify-between gap-4 py-4"><dt>大学院生（50分）</dt><dd class="font-bold whitespace-nowrap">4,500円</dd></div>
+            </dl>
+          </div>
+          <ul class="text-sm text-slate-600 space-y-1">
+            <li>※ 学生の方（カウンセリング・療法）は、各回1,000円引きとなります。学生証をご提示ください。</li>
+            <li>※ お支払いは現金、各種キャッシュレス決済をご利用いただけます。</li>
+            <li>※ 前日までのキャンセルは無料です。当日のキャンセルは料金の50％を申し受けます。</li>
+            <li>※ 当オフィスは医療機関ではないため、健康保険は適用されません。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- よくある質問 -->
+    <section id="faq" class="py-20 md:py-28 bg-mist">
+      <div class="max-w-3xl mx-auto px-5">
+        <div class="text-center" data-aos="fade-up">
+          <h2 class="section-title">よくある質問</h2>
+          <p class="section-lead">FAQ</p>
+        </div>
+        <div class="mt-12 space-y-4" data-aos="fade-up">
+          <details class="group bg-white rounded-lg p-6">
+            <summary class="flex justify-between items-center gap-4 cursor-pointer font-bold list-none">こんなことで相談してもよいのでしょうか？<i data-lucide="chevron-down" class="w-5 h-5 shrink-0 transition-transform group-open:rotate-180"></i></summary>
+            <p class="mt-4 text-slate-700 leading-relaxed">もちろんです。「何に悩んでいるのかうまく言えない」という状態からでも大丈夫です。話しながら一緒に整理していきましょう。</p>
+          </details>
+          <details class="group bg-white rounded-lg p-6">
+            <summary class="flex justify-between items-center gap-4 cursor-pointer font-bold list-none">夢をあまり覚えていないのですが、夢分析は受けられますか？<i data-lucide="chevron-down" class="w-5 h-5 shrink-0 transition-transform group-open:rotate-180"></i></summary>
+            <p class="mt-4 text-slate-700 leading-relaxed">はい。枕元にメモを置くなど、夢を記録するコツからお伝えします。断片的な夢や、昔から繰り返し見る夢も大切な手がかりになります。</p>
+          </details>
+          <details class="group bg-white rounded-lg p-6">
+            <summary class="flex justify-between items-center gap-4 cursor-pointer font-bold list-none">医療機関との違いは何ですか？<i data-lucide="chevron-down" class="w-5 h-5 shrink-0 transition-transform group-open:rotate-180"></i></summary>
+            <p class="mt-4 text-slate-700 leading-relaxed">当オフィスでは診断や投薬は行いません。通院中の方は、主治医の了解を得たうえでご利用ください。必要に応じて医療機関との連携やご紹介も行います。</p>
+          </details>
+          <details class="group bg-white rounded-lg p-6">
+            <summary class="flex justify-between items-center gap-4 cursor-pointer font-bold list-none">子どもの相談もできますか？<i data-lucide="chevron-down" class="w-5 h-5 shrink-0 transition-transform group-open:rotate-180"></i></summary>
+            <p class="mt-4 text-slate-700 leading-relaxed">はい。箱庭療法は言葉での表現が難しいお子さんにも適しています。保護者の方のご相談も合わせてお受けします。</p>
+          </details>
+          <details class="group bg-white rounded-lg p-6">
+            <summary class="flex justify-between items-center gap-4 cursor-pointer font-bold list-none">心理検査だけを受けることはできますか？<i data-lucide="chevron-down" class="w-5 h-5 shrink-0 transition-transform group-open:rotate-180"></i></summary>
+            <p class="mt-4 text-slate-700 leading-relaxed">可能です。自己理解のため、または他機関での支援に役立てるためなど、目的をうかがったうえで適した検査をご提案します。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- アクセス -->
+    <section id="access" class="py-20 md:py-28">
+      <div class="max-w-6xl mx-auto px-5 grid lg:grid-cols-2 gap-12 items-center">
+        <div data-aos="fade-up">
+          <img src="https://images.unsplash.com/photo-1636393720339-7624e15effd1?w=1000&q=80&fm=webp&fit=crop" alt="神戸・南京町の通り" class="w-full aspect-[4/3] object-cover rounded-lg" loading="lazy" decoding="async">
+        </div>
+        <div data-aos="fade-up" data-aos-delay="100">
+          <h2 class="section-title">アクセス・営業時間</h2>
+          <p class="section-lead">ACCESS</p>
+          <p class="mt-6 text-slate-700 leading-loose">南京町の一角、にぎやかな通りから少し入ったビルの3階にあります。お買い物や散策のついでのように、気軽にお越しいただける場所です。</p>
+          <dl class="mt-8 space-y-5 text-sm">
+            <div class="flex gap-4"><dt class="shrink-0"><i data-lucide="map-pin" class="w-5 h-5 text-ochre"></i><span class="sr-only">住所</span></dt><dd>〒650-0023 兵庫県神戸市中央区栄町通1丁目○-○ ○○ビル3F</dd></div>
+            <div class="flex gap-4"><dt class="shrink-0"><i data-lucide="train-front" class="w-5 h-5 text-ochre"></i><span class="sr-only">最寄り駅</span></dt><dd>JR・阪神「元町駅」より徒歩約5分<br>地下鉄海岸線「旧居留地・大丸前駅」より徒歩約3分<br>地下鉄海岸線「みなと元町駅」より徒歩約5分</dd></div>
+            <div class="flex gap-4"><dt class="shrink-0"><i data-lucide="clock" class="w-5 h-5 text-ochre"></i><span class="sr-only">営業時間</span></dt><dd>火〜土曜 10:00〜20:00（最終受付 19:00）<br>定休日：日曜・月曜・祝日</dd></div>
+          </dl>
+          <a href="https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E6%88%B8+%E5%8D%97%E4%BA%AC%E7%94%BA" target="_blank" rel="noopener" class="mt-8 inline-flex items-center gap-2 border border-ink text-ink px-6 py-3 rounded-md hover:bg-ink hover:text-white transition-colors">
+            <i data-lucide="map" class="w-4 h-4"></i>Google マップで見る
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section id="contact" class="py-20 md:py-28 bg-ink text-white">
+      <div class="max-w-3xl mx-auto px-5">
+        <div class="text-center" data-aos="fade-up">
+          <h2 class="font-serif text-2xl md:text-3xl font-bold tracking-wider">ご予約・お問い合わせ</h2>
+          <p class="mt-2 text-sm tracking-[0.25em] text-ochre-light">CONTACT</p>
+          <p class="mt-6 text-white/85">完全予約制です。お電話またはフォームからご連絡ください。<br class="hidden sm:inline">面接中は電話に出られないことがあります。折り返しご連絡いたします。</p>
+          <a href="tel:078-000-0000" class="mt-8 inline-flex items-center gap-3 font-serif text-2xl md:text-3xl tracking-wider hover:text-ochre-light transition-colors">
+            <i data-lucide="phone" class="w-6 h-6"></i>078-000-0000
+          </a>
+        </div>
+
+        <div class="mt-12 bg-white text-ink rounded-lg p-4 md:p-8" data-aos="fade-up">
+          <!--
+            ▼ Google フォームの埋め込み
+            フォームができたら、下の【フォームID】を差し替えてコメントを外し、
+            その下の「準備中」の表示（div）を削除してください。
+          <iframe src="https://docs.google.com/forms/d/e/【フォームID】/viewform?embedded=true" title="ご予約・お問い合わせフォーム" class="w-full h-[1300px] border-0" loading="lazy">読み込んでいます…</iframe>
+          -->
+          <div class="flex flex-col items-center text-center gap-4 py-12 px-4">
+            <i data-lucide="mail" class="w-10 h-10 text-ochre"></i>
+            <p class="font-bold text-lg">ご予約・お問い合わせフォームは準備中です。</p>
+            <p class="text-slate-600">お手数ですが、お電話でご連絡ください。</p>
+          </div>
+        </div>
+        <!--
+        <p class="mt-4 text-center text-sm text-white/75">フォームが表示されない場合は <a href="https://docs.google.com/forms/d/e/【フォームID】/viewform" target="_blank" rel="noopener" class="underline hover:text-white">こちら</a> から開けます。</p>
+        -->
+      </div>
+    </section>
+
+    <!-- 緊急時の案内 -->
+    <section id="emergency" class="py-10 bg-night text-white/80">
+      <div class="max-w-3xl mx-auto px-5 flex gap-4 text-sm leading-relaxed">
+        <i data-lucide="life-buoy" class="w-6 h-6 text-ochre-light shrink-0"></i>
+        <p>当オフィスは予約制のため、緊急のご相談には対応できません。今すぐ誰かと話したいとき、命の危険を感じるときは、医療機関や公的な相談窓口（こころの健康相談統一ダイヤル <a href="tel:0570-064-556" class="underline hover:text-white">0570-064-556</a>）、または119番をご利用ください。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-night text-white/60 border-t border-white/10 py-10 text-sm">
+    <div class="max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between gap-6">
+      <div>
+        <p class="font-serif text-white text-lg tracking-wider">こころの庭</p>
+        <p class="mt-1">心理カウンセリングオフィス／神戸・南京町</p>
+      </div>
+      <div class="md:text-right">
+        <p>Photos by
+          <a href="https://unsplash.com/@littlezero?utm_source=claude1page&utm_medium=referral" class="underline">Ivan Pomoshchikov</a>,
+          <a href="https://unsplash.com/@flywrk?utm_source=claude1page&utm_medium=referral" class="underline">Abishanth Ahilan</a>,
+          <a href="https://unsplash.com/@aryehdesigns?utm_source=claude1page&utm_medium=referral" class="underline">Hunter Curtis</a>,
+          <a href="https://unsplash.com/@luxunderscore?utm_source=claude1page&utm_medium=referral" class="underline">Luca Hooijer</a>,
+          <a href="https://unsplash.com/@duke91?utm_source=claude1page&utm_medium=referral" class="underline">Duc Van</a>,
+          <a href="https://unsplash.com/@explorebeyondlimit?utm_source=claude1page&utm_medium=referral" class="underline">Kevin Pierson</a>
+          on <a href="https://unsplash.com?utm_source=claude1page&utm_medium=referral" class="underline">Unsplash</a></p>
+        <p class="mt-2">&copy; 2026 こころの庭 心理カウンセリングオフィス</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://unpkg.com/lucide@1.32.0/dist/umd/lucide.min.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 700, offset: 60 });
+    lucide.createIcons();
+
+    // 固定ナビ：スクロールで見た目を切替（rAF でスロットリング）
+    const header = document.getElementById('site-header');
+    let ticking = false;
+    const updateNav = () => {
+      header.classList.toggle('nav-scrolled', window.scrollY > 50);
+      ticking = false;
+    };
+    window.addEventListener('scroll', () => {
+      if (!ticking) { requestAnimationFrame(updateNav); ticking = true; }
+    }, { passive: true });
+    updateNav();
+
+    // モバイルメニュー
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const setMenu = (open) => {
+      mobileMenu.classList.toggle('hidden', !open);
+      menuBtn.setAttribute('aria-expanded', String(open));
+      menuBtn.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
+      menuBtn.innerHTML = `<i data-lucide="${open ? 'x' : 'menu'}" class="w-6 h-6"></i>`;
+      header.classList.toggle('nav-scrolled', open || window.scrollY > 50);
+      lucide.createIcons();
+    };
+    menuBtn.addEventListener('click', () => setMenu(menuBtn.getAttribute('aria-expanded') !== 'true'));
+    mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+  </script>
+</body>
+</html>
